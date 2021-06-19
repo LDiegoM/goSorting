@@ -30,3 +30,7 @@ For these reasons, and because it is also stable, insertion sort is often used a
 From the comparions presented here, one might conclude that selection sort should never be used. It does not adapt to the data in any way (notice that the four animations above run in lock step), so its runtime is always quadratic.
 
 However, selection sort has the property of minimizing the number of swaps. In applications where the cost of swapping items is high, selection sort very well may be the algorithm of choice.
+
+## Standard lib sorting
+
+This package uses the stantard lib "sort" package just to compare the other algorithms efficiency.

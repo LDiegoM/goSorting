@@ -12,6 +12,7 @@ import (
 	"sorting/sorting/bubble_sorting"
 	"sorting/sorting/insertion_sorting"
 	"sorting/sorting/selection_sorting"
+	"sorting/sorting/standard_sorting"
 )
 
 type testingSorter struct {
@@ -54,13 +55,12 @@ func main() {
 }
 
 func createSorters() []testingSorter {
-	sorters := []testingSorter{
+	return []testingSorter{
 		{service: bubble_sorting.NewSorter()},
 		{service: insertion_sorting.NewSorter()},
 		{service: selection_sorting.NewSorter()},
+		{service: standard_sorting.NewSorter()},
 	}
-
-	return sorters
 }
 
 func randomIntSlice(n int) []int {
