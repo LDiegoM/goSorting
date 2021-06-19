@@ -10,9 +10,11 @@ See the package [algorithms](https://github.com/LDiegoM/goSorting/blob/main/sort
 
 # Changelog
 
-Unreleased
-
-- 15/05/2021 - Add initial main for basic testing porpuses, with the following algorithms:
+## 2021-05-15
+- Add initial main for basic testing porpuses, with the following algorithms:
     - Bubble sorting
     - Insertion sorting
     - Selection sorting
+
+## 2021-06-19
+- Add standard library sorter to compare the other algorithms efficiency.
